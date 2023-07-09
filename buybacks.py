@@ -7,8 +7,8 @@ import csv
 workbook = openpyxl.Workbook()
 worksheet = workbook.active
 
-# directory = 17405350002
-# total_collected = 24888.28
+# directory = 17477350002
+# total_collected = 24008.28
 
 headers = ['account','ac_code','desc','amount','proceeds','late','misc','prin paid','eff date']
 c_df.columns = headers
